@@ -1,6 +1,5 @@
 import './index.css'
-// import Product from './others/product_inject'
-import Product from './others/product_again' 
+import Product from './others/product_inject'
 
 (
     function() {

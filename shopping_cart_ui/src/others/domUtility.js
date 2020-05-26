@@ -1,5 +1,3 @@
-import Product from "./product_inject";
-
 export default class DomCreation {
     static createCard(product) {
         return `
