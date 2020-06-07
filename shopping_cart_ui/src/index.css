@@ -87,6 +87,8 @@ h6 {
 }
 .cart-details-body {
     width: 100%;
+    max-height: 300px;
+    overflow: auto;
 }
 .cart-details {
     height: 90px;
@@ -132,7 +134,7 @@ h6 {
 .item-cancel {
     font-size: 15px;
     color: red;
-    position: absolute;
+    position: relative;
     right: 10px;
 }
 /*styles for main body part*/
@@ -157,6 +159,7 @@ h6 {
 }
 .prod-image {
     width: 300px;
+    height: 250px;
     box-sizing: border-box;
 }
 .image-class {
